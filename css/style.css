@@ -1,0 +1,76 @@
+#cont-principal{
+    background: #72d7d3;
+    width: 700px;
+    height: 700px;
+    margin: 0;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+#cont-principal .cuerpo{
+    z-index: 10;
+    padding-top: 180px;
+    transition: 1s;
+    position: relative;
+}
+#cont-principal .sombrero{
+    position: absolute;
+    top: 119px;
+    left: 228px;
+    transition: .5s;
+}
+#cont-principal .cuerpo:hover{
+    transform: rotate(360deg)
+}
+#cont-principal .cuerpo .oreja1{
+    z-index: -2;
+    position: absolute;
+    left: 199px;
+}
+#cont-principal .cuerpo .oreja2{
+    z-index: -2;
+    position: absolute;
+    right: 199px;
+}
+#cont-principal .cuerpo .zapato1{
+    z-index: -2; 
+    position: absolute;
+    margin-top: 299px;
+    left: -20px;
+}
+#cont-principal .cuerpo .zapato2{
+    z-index: -2; 
+    position: absolute;
+    margin-top: 299px;
+    right: -20px;
+}
+#cont-principal .cuerpo .ojo1{
+    z-index: 1;
+    position: absolute;
+    margin-top: 24px;
+    left: 37px;
+}
+#cont-principal .cuerpo .ojo2{
+    z-index: 1;
+    position: absolute;
+    margin-top: 24px;
+    right: 37px;
+}
+#cont-principal .cuerpo .bigote{
+    text-align: center;
+    margin-top: 198px;
+}
+#cont-principal .cuerpo .nariz{
+    z-index: 15;
+    text-align: center;
+    margin-top: -181px;
+    position: absolute;
+    left: 55px;
+}
+
+
+
+
+
+
+
